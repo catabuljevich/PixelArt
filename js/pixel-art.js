@@ -97,9 +97,30 @@ $(".pixel").hover(function(){
        });
   
 
+$("#borrar").click(function(){
+   $(".pixel").animate({"backgroundColor": "white"},400);
+})
+
+$("#batman").click(function(){
+  cargarSuperheroe(batman);
+})
+
+$("#wonder").click(function(){
+  cargarSuperheroe(wonder);
+})
+
+$("#flash").click(function(){
+  cargarSuperheroe(flash);
+})
+
+$("#invisible").click(function(){
+  cargarSuperheroe(invisible);
+})
 
 
-
+$("#guardar").click(function(){
+  guardarPixelArt();
+})
 
 
 
